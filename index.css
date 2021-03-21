@@ -1433,11 +1433,24 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .parallax-2 {
+    padding-top: 10px;
     height: 115px;
     font-family: sans-serif;
     display:flex;
     align-items:center;
-    align-content: center;
+    justify-content: center;
+}
+
+.parallax-2 p {
+    font-size: small;
+}
+
+.social-media-icons {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 /* .footer-home {
