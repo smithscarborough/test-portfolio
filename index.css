@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .main-background-image {
@@ -39,6 +40,7 @@ body {
     padding-right: 110px;
     padding-top: 50px;
     margin-bottom: 100px;
+    min-height: 8vh;
 }
 
 .nav-bar-menu {
@@ -55,6 +57,10 @@ body {
     font-size: large;
 }
 
+.home-link:link {
+    text-decoration: none;
+}
+
 .nav-bar-item a {
     color: white;
     text-decoration: none;
@@ -69,8 +75,9 @@ a:hover {
 .navbar-left {
     color: #06FDD0;
     font-size: xx-large;
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'Londrina Solid', cursive;   
 }
+
 
 .parallax-1 {
     display: flex;
@@ -1411,7 +1418,9 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .parallax-1 {
-    min-height: 450px;
+    /* min-height: 450px; */
+    padding-top: 70px;
+    height: 90vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1433,7 +1442,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .parallax-2 {
-    padding-top: 10px;
+    padding-top: 15px;
     height: 115px;
     font-family: sans-serif;
     display:flex;
@@ -1443,6 +1452,9 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 
 .parallax-2 p {
     font-size: small;
+    display: flex;
+    justify-content: end;
+    padding-top: 60px;
 }
 
 .social-media-icons {
@@ -1451,6 +1463,9 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: 0 auto;
 }
 
 /* .footer-home {
@@ -1512,3 +1527,88 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     } */
 /* } */
 
+/* media queries */
+
+/* animated navbar w/ burger animation */
+
+.burger {
+    display: none;
+    cursor: pointer;
+    /* may add better solution than padding-top to make burger in-line with name */
+    padding-top: 15px;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-bar-menu {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-bar-menu {
+        position: absolute;
+        right: 0%;
+        height: 92vh;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(92, 184, 0);
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        width: 30%;
+    }
+    .nav-bar-menu li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+
+
+/* Below are supposedly some good general breakpoints for each device */
+/* @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+/* @media (min-width:480px)  { smartphones, Android phones, landscape iPhone } */
+/* @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+/* @media (min-width:801px)  { tablet, landscape iPad, lo-res laptops ands desktops } */
+/* @media (min-width:1025px) { big landscape tablets, laptops, and desktops } */
+/* @media (min-width:1281px) { hi-res laptops and desktops */ }  */

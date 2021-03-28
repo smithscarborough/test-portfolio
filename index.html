@@ -9,18 +9,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
+
+    <!-- Inconsolata Google Font link -->
+    <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
 <div class='main-background-image'>
     <nav class="nav-bar">
-        <div class="nav-bar-item navbar-left">SMITH SCARBOROUGH</div>
+        <a href="./index.html" class="home-link"><div class="nav-bar-item navbar-left">SMITH SCARBOROUGH</div></a>
         <ul class="nav-bar-menu">
             <li class="nav-bar-item navbar-right"><a href="./about.html">about</a></li>
             <li class="nav-bar-item navbar-right"><a href="./code.html">code</a></li>
             <li class="nav-bar-item navbar-right"><a href="#">blog</a></li>
-            <li class="nav-bar-item navbar-right"><a href="#">contact</a></li>
+            <li class="nav-bar-item navbar-right"><a href="./contact.html">contact</a></li>
         </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </nav>
     <div class="stars-container">
         <div class="shooting-star"></div>
@@ -130,28 +144,32 @@
     <div class="home-intro">
         <p> Hello, World! </p>
         <p>My name is Smith. (Yes, it's my first name.)</p>
-        <p>I am a software engineer based in Houston, Texas, with a skillset focused primarily on fullstack web development (click here to check out some of my recent coding projects).  I have a degree in Creative Writing from Rhodes College in Memphis, Tennessee, as well as an MBA and a software engineering certificate from DigitalCrafts coding bootcamp.</p>
-        <p>When I'm not turning coffee into code, you can probably find me outside on the local running trail or at Big Bend National Park (my happy place, pictured above), or doing my best Jimi Hendrix impersonation on my surf green Fender Stratocaster guitar.</p>
-        <p>An avid runner, I have completed over 20 marathons, 10x50-milers, and one 100-mile ultra-marathon.</p>
-        <p>I love the parallels that exist between coding and ultra-running.  Both require you to problem solve, and break issues down into their most component parts, in order to push through seemingly insurmountable barriers.</p>
+        <p>I am a software engineer based in Houston, Texas, with a skillset focused on fullstack web development (click <a href="./code.html">here</a> to check out some of my latest projects).  I have a degree in Creative Writing from Rhodes College in Memphis, Tennessee, as well as an MBA and a software engineering certificate from a coding bootcamp.</p>
+        <p>When I'm not turning coffee into code, you can probably find me outside running, exploring Big Bend National Park (pictured above), or doing my best Jimi Hendrix impersonation on my surf green Fender Stratocaster.</p>
+        <p>An avid runner, I competed on my college's cross country and track teams, and have completed over 20 marathons, 10x50-milers, and one 105-mile ultra-marathon.</p>
+        <p>I love the parallels that exist between coding and ultra-running. Both present a series of overwhelming obstacles, which, once broken down into their most basic parts, become entirely manageable and allow you to reach the finish line.</p>
         <p>I would love to hear from you, so please feel free to shoot me an email or leave a comment.</p>
         <p>Thanks for stopping by!</p>
+
+        <div class="social-media-icons">
+            <a href="https://www.linkedin.com/in/smith-scarborough/" target="_blank"><img src="./img/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png"></a>
+            <a href="https://github.com/smithscarborough" target="_blank"><img src="./img/iconfinder_github_291716.png"</a>
+            <a href="https://www.instagram.com/smiffmo/?hl=en" target="_blank"><img src="./img/iconfinder_1_Instagram_colored_svg_1_5296765.png"></a>
+            <!-- <a href="https://www.youtube.com/channel/UCIzFMNQhGIUwLhVQzjnqcpg" target="_blank"><img src="./img/iconfinder_1_Youtube_colored_svg_5296521.png"></a> -->
+        </div>
+
     </div>
+
 </div>
 <div class="gif-container">
-    <img class="home-gif" src="./img/trail_running_big_bend.gif" alt="Smith trail running at Big Bend National Park"">
+    <!-- <img class="home-gif" src="./img/trail_running_big_bend.gif" alt="Smith trail running at Big Bend National Park""> -->
 </div>
 
 <div class="parallax-2">
-    <p>&#169; COPYRIGHT 2021 SMITH SCARBOROUGH</p>
-</div>
-<div class="social-media-icons">
-    <a href="https://www.linkedin.com/in/smith-scarborough/" target="_blank"><img src="./img/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png"></a>
-    <a href="https://github.com/smithscarborough" target="_blank"><img src="./img/iconfinder_github_291716.png"</a>
-    <a href="https://www.instagram.com/smiffmo/?hl=en" target="_blank"><img src="./img/iconfinder_1_Instagram_colored_svg_1_5296765.png"></a>
-    <a href="https://www.youtube.com/channel/UCIzFMNQhGIUwLhVQzjnqcpg" target="_blank"><img src="./img/iconfinder_1_Youtube_colored_svg_5296521.png"></a>
+    <p>&copy; Copyright 2021 Smith Scarborough. All Rights Reserved.</p>
 </div>
 
 
+<script src="./index.js"></script>
 </body>
 </html>                        

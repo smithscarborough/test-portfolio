@@ -59,6 +59,21 @@ a:hover {
     text-decoration: none;
 }
 
+/* Social media icons for code page */
+
+.code-page-social-media-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  align-content: flex-end;
+  text-align: right;
+  /* float: right; */
+}
+
+
+
+
+
 .parallax-1 {
     display: flex;
     margin: 0 auto;
@@ -68,6 +83,7 @@ a:hover {
     font-family: sans-serif;
     height: 650px;
 }
+
 
 
 
