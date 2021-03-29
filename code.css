@@ -3,6 +3,23 @@ body {
     padding: 0;
 }
 
+.header-fill {
+  height: 10px;
+  width: 100vw;
+  /* background-color: slategray; */
+  background: repeating-radial-gradient(
+      circle,
+      #16A7A2,
+      #16A7A2 10px,
+      #13807C 10px, 
+      #13807C 20px
+  );
+}
+
+/* .code-title {
+  text-transform: uppercase;
+} */
+
 .main-background-image {
     background-image: url(./img/Big\ Bend\ Night\ Landscape.jpg);
     background-position: center center;
@@ -232,7 +249,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .testimonial-wrap .testimonial {
   text-align: center;
-  max-width: 500px;
+  max-width: 800px;
+  /* max-width: 500px; */
   margin: 0 auto;
 }
 

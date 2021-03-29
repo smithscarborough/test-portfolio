@@ -1,0 +1,12 @@
+.header-fill {
+    height: 10px;
+    width: 100vw;
+    /* background-color: slategray; */
+    background: repeating-radial-gradient(
+        circle,
+        #16A7A2,
+        #16A7A2 10px,
+        #13807C 10px, 
+        #13807C 20px
+    );
+}

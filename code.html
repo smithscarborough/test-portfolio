@@ -28,8 +28,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./code.css">
+
+    <!-- favicon link -->
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
 </head>
 <body>
+  <div class="header-fill"></div>
+
+
 
     <nav class="nav-bar">
         <a href="./index.html" class="home-link"><div class="nav-bar-item navbar-left">SMITH SCARBOROUGH</div></a>
@@ -106,7 +112,7 @@
             </div>
           </div>  -->
 <div class="portfolio-title-container container">
-  <h2> My latest projects:</h2>
+  <h2 class="code-title"> My latest projects:</h2>
 
   <!-- <div class="code-page-social-media-icons">
     <a href="https://github.com/smithscarborough" target="_blank"><img src="./img/iconfinder_github_291716.png"</a>
@@ -146,16 +152,16 @@
               <a href="./portfolio-template/work-single.html" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>Pulse News</h3>
-                  <span>React</span>
+                  <span>React, Material-UI</span>
                 </div>
-                <img class="img-fluid" src="./portfolio-template/assets/img/img_4.jpg">
+                <img class="img-fluid" src="./img/pulse_news_logo.jpeg">
               </a>
             </div>
             <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="./portfolio-template/work-single.html" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>Twitter Clone</h3>
-                  <span>Photography</span>
+                  <span>React, Material-UI</span>
                 </div>
                 <img class="img-fluid" src="./portfolio-template/assets/img/img_5.jpg">
               </a>
@@ -164,7 +170,7 @@
               <a href="./portfolio-template/assets/img/img_5.jpg" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>To-Do List</h3>
-                  <span>branding</span>
+                  <span>React</span>
                 </div>
                 <img class="img-fluid" src="./portfolio-template/assets/img/img_6.jpg">
               </a>
@@ -173,12 +179,39 @@
         </div>
       </section><!-- End  Works Section -->
   
+
+
       <!-- ======= Testimonials Section ======= -->
       <section class="section pt-0">
         <div class="container">
   
           <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper">
+
+
+              <div class="swiper-slide">
+                <div class="testimonial-wrap">
+                  <div class="testimonial">
+                    <img src="./img/icons/icons8-html-5-144.png" alt="HTML5 logo" class="img-fluid">
+                    <img src="./img/icons/icons8-css3-144.png" alt="CSS3 logo" class="img-fluid">
+                    <img src="./img/icons/icons8-javascript-96.png" alt="JS logo" class="img-fluid">
+                    <img src="./img/icons/icons8-bootstrap-144.png" alt="Bootstrap logo" class="img-fluid">
+                    <img src="./img/icons/icons8-react-144 (1).png" alt="React.js logo" class="img-fluid">
+                    <img src="./img/icons/icons8-material-ui-144.png" alt="material-ui logo" class="img-fluid">
+                    <img src="./img/icons/icons8-npm-144.png" alt="npm logo" class="img-fluid">
+                    <img src="./img/icons/icons8-nodejs-144.png" alt="node.js logo" class="img-fluid">
+                    <img src="./img/icons/icons8-postgresql-144.png" alt="PostgreSQL logo" class="img-fluid">
+                    <img src="./img/icons/icons8-sql-144.png" alt="SQL logo" class="img-fluid">
+                    <img src="./img/icons/icons8-json-144.png" alt="JSON logo" class="img-fluid">
+                    <img src="./img/icons/icons8-api-144.png" alt="API logo" class="img-fluid">
+                    <img src="./img/icons/icons8-git-144.png" alt="Git logo" class="img-fluid">
+                    <img src="./img/icons/icons8-github-144.png" alt="Github logo" class="img-fluid">
+                    <img src="./img/icons/icons8-visual-studio-code-2019-144.png" alt="VSCode logo" class="img-fluid">
+                    <img src="./img/icons/icons8-python-144.png" alt="Python logo" class="img-fluid">
+                    <img src="./img/icons/icons8-salesforce-144.png" alt="Salesforce logo" class="img-fluid">
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
   
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
@@ -206,24 +239,6 @@
               </div><!-- End testimonial item -->
 
 
-              <!-- experimental listing of technologies/skills section -->
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial">
-                    <img src="./portfolio-template/assets/img/person_2.jpg" alt="Image" class="img-fluid">
-                    <blockquote>
-                      <p>Smith is the greatest programmer I have ever known.  I can't wait to see the
-                        open source contributions he makes to Linux.</p>
-                    </blockquote>
-                    <p>&mdash; Linus Torvalds</p>
-                  </div>
-                </div>
-              </div><!-- End testimonial item -->
-
-
-
-
-
   
             </div>
             <div class="swiper-pagination"></div>
@@ -241,12 +256,12 @@
           <div class="col-sm-6">
             <p class="mb-1">&copy; Copyright 2021 Smith Scarborough. All Rights Reserved.</p>
           </div>
-          <div class="col-sm-6 social text-md-end">
+          <!-- <div class="col-sm-6 social text-md-end">
             <a href="#"><span class="bi bi-twitter"></span></a>
             <a href="#"><span class="bi bi-facebook"></span></a>
             <a href="#"><span class="bi bi-instagram"></span></a>
             <a href="#"><span class="bi bi-linkedin"></span></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
