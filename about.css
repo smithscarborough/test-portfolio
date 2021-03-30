@@ -53,6 +53,14 @@ h6 {
     line-height: 1;
     list-style-type: none;
     margin: 0;
+
+    padding-right: 8%;
+    padding-top: 1%;
+}
+
+.navbar-right {
+    padding-top: 16%;
+    margin: 2.5%;
 }
 
 .nav-bar-item {
