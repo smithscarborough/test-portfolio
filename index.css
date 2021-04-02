@@ -13,6 +13,9 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
+
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .nav-bar {
@@ -69,14 +72,20 @@ a:hover {
     font-family: 'Londrina Solid', cursive;   
 }
 
+/* combine both parallax classes into one */
 .parallax-1 {
     display: flex;
     margin: 0 auto;
-    max-width: 700px;
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    max-width: 700px;
+    padding-top: 9%;
 }
 
 
@@ -140,12 +149,6 @@ a:hover {
 }
 }
 
-.stars-container {
-    display: flex;
-    min-height: 30vh;
-    width: 100%;
-}
-
 /* SHOOTING STAR: */
 @keyframes particleAnimation{
     83% {
@@ -161,13 +164,12 @@ a:hover {
 
 
 .shooting-star {
-    position:fixed;
+    position: fixed;
     left: 0px;
     top: 50px;
     width: 1px;
     height: 1px;
     background-color:white;
-    position: fixed;
     animation-name: particleAnimation;
     animation-timing-function: linear;
     animation-iteration-count: 1;
@@ -186,10 +188,200 @@ height: 1px;
 background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100%); 
 }
 
+/* .home-video {
+    /* height: 75vh;
+    width: 100vw; */
+/* }  */
+
+.parallax-2 {
+    padding-top: 15px;
+    height: 115px;
+    font-family: sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.parallax-2 p {
+    font-size: small;
+    display: flex;
+    justify-content: end;
+    padding-top: 60px;
+}
+
+.social-media-icons {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 7%;
+    padding-bottom: 11.5%;
+    margin: 0 auto; 
+}
+
+.video-container {
+    display: flex;
+    /* z-index: 100; */
+    /* min-height:  */
+}
+
+/* .footer-home {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+} */
+
+
+
+
+
+/* @keyframes twinkle (experimental version) {
+    0% {
+        opacity: 0.40;
+    }
+    2% {
+        opacity: 1;
+    }
+    6% {
+        opacity: 0.1;
+    }
+    11% {
+        opacity: 0.9
+    }
+    15% {
+        opacity: 0.25;
+    }
+    20% {
+        opacity: 0.7;
+    }
+    24% {
+        opacity: 0.5;
+    }
+    30% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0.65;
+    }
+    60% {
+        opacity: 0.72;
+    }
+    65% {
+        opacity: 0.33;
+    }
+    72% {
+        opacity: 0.15;
+    }
+    80% {
+        opacity: .57;
+    }
+    83% {
+        opacity: .48;
+    }
+    87% {
+        opacity: 1;
+    } */
+/* } */
+
+/* media queries */
+
+/* animated navbar w/ burger animation */
+
+.burger {
+    display: none;
+    cursor: pointer;
+    /* may add better solution than padding-top to make burger in-line with name */
+    padding-top: 15px;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* media queries */
+
+@media screen and (max-width: 1024px) {
+    .nav-bar-menu {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-bar-menu {
+        position: absolute;
+        right: -50%;
+        height: 92vh;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(92, 184, 0);
+        transform: translateX(0%);
+        transition: transform 0.5s ease-in;
+        width: 30%;
+    }
+    .nav-bar-menu li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+    }
+    .nav-active {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Below are supposedly some good general breakpoints for each device */
+/* @media (min-width:320px)  { smartphones, portrait iPhone, portrait 480x320 phones (Android) }
+/* @media (min-width:480px)  { smartphones, Android phones, landscape iPhone } */
+/* @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+/* @media (min-width:801px)  { tablet, landscape iPad, lo-res laptops ands desktops } */
+/* @media (min-width:1025px) { big landscape tablets, laptops, and desktops } */
+/* @media (min-width:1281px) { hi-res laptops and desktops }   */
+
 
 /* TWINKLE STARS: */
+
+.stars-container {
+    display: flex;
+    min-height: 30vh;
+    width: 100%;
+}
+
 .star {
-    position: absolute;
+    position: fixed;
     box-shadow: 0 0 3px #fff;
     border-radius: 50%;
 }
@@ -1412,198 +1604,3 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     opacity: .45;
     }
 }
-
-.parallax-1 {
-    /* min-height: 450px; */
-    padding-top: 9%;
-    height: 90vh;
-    min-height: 90vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: sans-serif;
-}
-
-/* .home-video {
-    height: 75vh;
-    width: 100vw;
-} */
-
-.parallax-2 {
-    padding-top: 15px;
-    height: 115px;
-    font-family: sans-serif;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-}
-
-.parallax-2 p {
-    font-size: small;
-    display: flex;
-    justify-content: end;
-    padding-top: 60px;
-}
-
-.social-media-icons {
-    width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-    padding-top: 7%;
-    padding-bottom: 11.5%;
-    margin: 0 auto; */
-}
-
-.video-container {
-    display: flex;
-    /* min-height:  */
-}
-
-/* .footer-home {
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    align-content: center;
-} */
-
-
-
-
-
-/* @keyframes twinkle (experimental version) {
-    0% {
-        opacity: 0.40;
-    }
-    2% {
-        opacity: 1;
-    }
-    6% {
-        opacity: 0.1;
-    }
-    11% {
-        opacity: 0.9
-    }
-    15% {
-        opacity: 0.25;
-    }
-    20% {
-        opacity: 0.7;
-    }
-    24% {
-        opacity: 0.5;
-    }
-    30% {
-        opacity: 1;
-    }
-    40% {
-        opacity: 0.65;
-    }
-    60% {
-        opacity: 0.72;
-    }
-    65% {
-        opacity: 0.33;
-    }
-    72% {
-        opacity: 0.15;
-    }
-    80% {
-        opacity: .57;
-    }
-    83% {
-        opacity: .48;
-    }
-    87% {
-        opacity: 1;
-    } */
-/* } */
-
-/* media queries */
-
-/* animated navbar w/ burger animation */
-
-.burger {
-    display: none;
-    cursor: pointer;
-    /* may add better solution than padding-top to make burger in-line with name */
-    padding-top: 15px;
-}
-
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px;
-    transition: all 0.3s ease;
-}
-
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2 {
-    opacity: 0;
-}
-.toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-}
-
-/* media queries */
-
-@media screen and (max-width: 1024px) {
-    .nav-bar-menu {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-    .nav-bar-menu {
-        position: absolute;
-        right: -50%;
-        height: 92vh;
-        top: 8vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(92, 184, 0);
-        transform: translateX(0%);
-        transition: transform 0.5s ease-in;
-        width: 30%;
-    }
-    .nav-bar-menu li {
-        opacity: 0;
-    }
-    .burger {
-        display: block;
-    }
-    .nav-active {
-        transform: translateX(-100%);
-    }
-}
-
-
-
-/* Below are supposedly some good general breakpoints for each device */
-/* @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
-/* @media (min-width:480px)  { smartphones, Android phones, landscape iPhone } */
-/* @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-/* @media (min-width:801px)  { tablet, landscape iPad, lo-res laptops ands desktops } */
-/* @media (min-width:1025px) { big landscape tablets, laptops, and desktops } */
-/* @media (min-width:1281px) { hi-res laptops and desktops */ }  */
