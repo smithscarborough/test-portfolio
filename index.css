@@ -329,6 +329,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     .nav-bar-menu {
         width: 60%;
     }
+    .main-background-image {
+        background-attachment: scroll;
 }
 
 @media screen and (max-width: 768px) {
