@@ -13,7 +13,6 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
-
     min-width: 100%;
     min-height: 100%;
 }
@@ -162,7 +161,6 @@ a:hover {
     }
 }
 
-
 .shooting-star {
     position: fixed;
     left: 0px;
@@ -187,11 +185,6 @@ top: 0px;
 height: 1px;
 background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100%); 
 }
-
-/* .home-video {
-    /* height: 75vh;
-    width: 100vw; */
-/* }  */
 
 .parallax-2 {
     padding-top: 15px;
@@ -222,8 +215,12 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 
 .video-container {
     display: flex;
-    /* z-index: 100; */
-    /* min-height:  */
+    position: relative;
+    width: 100vw;
+}
+
+.home-video {
+    width: 100vw;
 }
 
 /* .footer-home {

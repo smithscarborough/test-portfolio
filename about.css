@@ -89,3 +89,7 @@ a:hover {
 .home-link:link {
     text-decoration: none;
 }
+
+.roadtrip-image {
+    margin: 5px;
+}
