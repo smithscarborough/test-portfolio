@@ -76,6 +76,7 @@ a:hover {
     display: flex;
     margin: 0 auto;
     align-items: center;
+    text-align: center;
     justify-content: center;
     font-family: sans-serif;
     background-attachment: fixed;
@@ -84,7 +85,18 @@ a:hover {
     background-size: cover;
     min-height: 90vh;
     max-width: 700px;
-    padding-top: 9%;
+    padding-top: 8%;
+}
+
+.home-image {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.hello-world {
+    padding-top: 50px;
 }
 
 
@@ -325,15 +337,29 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 
 /* media queries */
 
+/* .main-background-image {
+    background-image: url(./img/Big\ Bend\ Night\ Landscape.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+} */
+
 @media screen and (max-width: 1024px) {
     .nav-bar-menu {
         width: 60%;
     }
     .main-background-image {
         background-attachment: scroll;
+        height: 70vh;
     }
     .stars-container {
-        background-attachment: fixed;
+        display: none;
     }
 }
 
