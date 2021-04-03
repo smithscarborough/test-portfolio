@@ -239,6 +239,19 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     width: 100%;
 }
 
+.footer-flair {
+    height: 10px;
+    width: 100vw;
+    /* background-color: slategray; */
+    background: repeating-radial-gradient(
+        circle,
+        #16A7A2,
+        #16A7A2 10px,
+        #13807C 10px, 
+        #13807C 20px
+    );
+}
+
 .burger {
     display: none;
     cursor: pointer;
