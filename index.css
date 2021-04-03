@@ -324,7 +324,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     /* mobile shooting star & animation */
     .mobile-shooting-star {
         position:absolute;
-        left: 0px;
+        left: 0px; 
         width: 1px;
         height: 1px;
         background-color:white;
@@ -348,14 +348,14 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
         }
     
     @keyframes particleAnimation{
-        83% {
+        80% {
             left: -100px;
         }
         from {
             left: -100px;
         }
         to {
-            left: calc(100% + 100px);
+            left: calc(100% + 5px);
         }
     }
 }
