@@ -322,6 +322,11 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
         display: none;
     }
     /* mobile shooting star & animation */
+    .mobile-star-container {
+        width: 100%;
+        height: auto;
+    }
+    
     .mobile-shooting-star {
         position:absolute;
         left: 0px; 
