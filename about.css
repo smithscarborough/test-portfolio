@@ -131,9 +131,6 @@ a:hover {
 
 
 @media screen and (max-width: 1024px) {
-    .nav-bar-menu {
-        width: 60%;
-    }
     .main-background-image {
         background-attachment: scroll;
         height: 90vh;
@@ -141,15 +138,8 @@ a:hover {
     .stars-container {
         display: none;
     }
-    .home-image {
-        padding-top: 40px;
-        width: 90vw;
-    }
-    .hello-world {
-        padding-top: 35px;
-    }
-    .navbar-right {
-        font-size: 25px;
+    .about-title {
+        padding-top: 100px;
     }
 }
 
@@ -161,7 +151,7 @@ a:hover {
         position: absolute;
         left: -65%;
         height: 100vh;
-        top: 10.5vh;
+        top: 0vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -185,5 +175,11 @@ a:hover {
         position: fixed;
         top: 0;
         width: 100%;
+    }
+    .nav-bar-menu {
+        width: 60%;
+    }
+    .navbar-right {
+        font-size: 25px;
     }
 }
