@@ -235,7 +235,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .home-video {
-    width: 100vw;
+    padding-top: 50px;
+    width: 100%;
 }
 
 .burger {
@@ -315,10 +316,9 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     }
     .nav-bar-menu {
         position: absolute;
-        /* right: -50%; */
         left: -65%;
-        height: 92vh;
-        top: 8vh;
+        height: 100vh;
+        top: 10.5vh;
         display: flex;
         flex-direction: column;
         align-items: center;

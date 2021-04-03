@@ -101,7 +101,12 @@ a:hover {
   /*padding-bottom: 200px;*/
 }
 
-.section-header {
+.about-header {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* .section-header {
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
@@ -109,7 +114,7 @@ a:hover {
   font-family: sans-serif;
   letter-spacing: 6px;
   color: black;
-}
+} */
 
 .contact-wrapper {
   margin: 0 auto;
