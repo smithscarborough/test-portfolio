@@ -402,7 +402,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
         color: #06FDD0;
     }
     .navbar-right {
-        font-size: 25px;
+        font-size: 50px;
+        font-weight: bold;
     }
     .nav-bar-menu {
         width: 60%;
