@@ -329,7 +329,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     
     .mobile-shooting-star {
         position:absolute;
-        left: -120%; 
+        left: 0px; 
         width: 1px;
         height: 1px;
         background-color:white;
@@ -357,7 +357,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
             left: -100px;
         }
         from {
-            left: -100px;
+            left: -120px;
         }
         to {
             left: calc(100% + 5px);
