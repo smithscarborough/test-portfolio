@@ -797,7 +797,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 .twinkle-star-31 {
     width: 1.9px;
     height: 1.9px;
-    right: 91.2%;
+    right: 90.5%;
     top: 23%;
     background: #b6c8ff;
     -webkit-animation: twinkle-a 0.5s alternate infinite;
@@ -969,7 +969,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     top: 43%;
     background: #b6c8ff;
     -webkit-animation: twinkle-a 0.5s alternate infinite;
-        animation: twinkle-a 0.5s alternate infinite;
+        animation: twinkle-c 0.5s alternate infinite;
     -webkit-animation-delay: 1.61404s;
         animation-delay: 1.61404s;
 }
@@ -1074,10 +1074,10 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     width: 1.1px;
     height: 1.1px;
     right: 74%;
-    top: 18%;
+    top: 20.5%;
     background: #b6c8ff;
     -webkit-animation: twinkle-b 0.5s alternate infinite;
-        animation: twinkle-b 0.5s alternate infinite;
+        animation: twinkle-c 0.5s alternate infinite;
     -webkit-animation-delay: 1.61404s;
         animation-delay: 1.61404s;
 }
@@ -1293,7 +1293,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     top: 7%;
     background: #b6c8ff;
     -webkit-animation: twinkle-b 0.5s alternate infinite;
-        animation: twinkle-b 0.5s alternate infinite;
+        animation: twinkle-c  0.5s alternate infinite;
     -webkit-animation-delay: 1.61404s;
         animation-delay: 1.61404s;
 }
@@ -1437,7 +1437,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     top: 4%;
     background: #b6c8ff;
     -webkit-animation: twinkle-b 0.5s alternate infinite;
-        animation: twinkle-b 0.5s alternate infinite;
+        animation: twinkle-c 0.5s alternate infinite;
     -webkit-animation-delay: 1.61404s;
         animation-delay: 1.61404s;
 }
@@ -1636,7 +1636,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 
 @keyframes twinkle-a {
     0% {
-    opacity: .45;
+    opacity: .25;
     }
     100% {
     opacity: 1;
@@ -1648,6 +1648,24 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     opacity: 1;
     }
     100% {
-    opacity: .45;
+    opacity: .25;
+    }
+}
+
+@keyframes twinkle-c {
+    0% {
+    opacity: .10;
+    }
+    25% {
+    opacity: 0;
+    }
+    50% {
+    opacity: .30;
+    }
+    75% {
+    opacity: .20;
+    }
+    100% {
+    opacity: 1;
     }
 }
