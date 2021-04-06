@@ -1538,13 +1538,13 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-93 {
-    width: 2px;
-    height: 2.6px;
+    width: 3px;
+    height: 3px;
     right: 43%;
     top: 25%;
     background: #b6c8ff;
     -webkit-animation: twinkle-a 0.5s alternate infinite;
-        animation: twinkle-a 0.5s alternate infinite;
+        animation: twinkle-c 0.5s alternate infinite;
     -webkit-animation-delay: 1.61404s;
         animation-delay: 1.61404s;
 }
