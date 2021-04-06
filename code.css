@@ -36,7 +36,7 @@ body {
     justify-content: space-between;
     padding-left: 11.75%;
     padding-right: 9.5%;
-    padding-top: 4.5%;
+    padding-top: 6%;
     margin-bottom: 100px;
 }
 
@@ -129,7 +129,7 @@ a:hover {
       padding-top: 100px;
   }
   .spacer-container {
-    position:static;
+    position: static;
     height: 150px;
   }
 }
@@ -139,7 +139,7 @@ a:hover {
       overflow-x: hidden;
   }
   .nav-bar-menu {
-      position: absolute;
+      position:absolute;
       left: -65%;
       height: 100vh;
       top: 0vh;
@@ -150,7 +150,7 @@ a:hover {
       transform: translateX(0%);
       transition: transform 0.2s ease-in;
       width: 65%;
-      z-index: 100;
+      z-index: 1;
   }
   .nav-bar-menu li {
       opacity: 0;
@@ -198,9 +198,6 @@ a:hover {
     font-family: sans-serif;
     height: 650px;
 }
-
-
-
 
 
 /* Boostrap template: */
@@ -594,13 +591,13 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 1.7rem;
 }
 
-/* Burger */
+
 .burger {
   width: 28px;
   height: 32px;
   cursor: pointer;
   position: relative;
-}
+} 
 
 .burger:before, .burger span, .burger:after {
   width: 100%;
@@ -626,39 +623,32 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   top: 15px;
 }
 
-.burger:after {
-  top: 26px;
-}
 
 /* Hover */
 .burger:hover:before {
   top: 7px;
 }
 
-.burger:hover:after {
-  top: 23px;
-}
-
 /* Click */
 .burger.active span {
   opacity: 0;
-}
+} 
 
 .burger.active:before, .burger.active:after {
   top: 40%;
-}
+} 
 
 .burger.active:before {
   transform: rotate(45deg);
-}
+} 
 
 .burger.active:after {
   transform: rotate(-45deg);
-}
+} 
 
 .burger:focus {
   outline: none;
-}
+}  
 
 /*--------------------------------------------------------------
 # Footer

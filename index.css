@@ -22,8 +22,8 @@ body {
     justify-content: space-between;
     padding-left: 11.75%;
     /* padding-right: 110px; */
-    padding-right: 9.5%;
-    padding-top: 1.5%;
+    padding-right: 6.5%;
+    padding-top: 5%;
     margin-bottom: 100px;
     min-height: 8vh;
 }
@@ -395,7 +395,6 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     nav {
         background-color: black;
         position: fixed;
-        top: 0;
         width: 100%;
     }
     .nav-bar-item a {
@@ -520,7 +519,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-8 {
-    width: 1px;
+    width: 2px;
     height: 2px;
     right: 15%;
     top: 7%;
@@ -676,8 +675,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-21 {
-    width: 1.8px;
-    height: 1.8px;
+    width: 2px;
+    height: 2px;
     right: 95%;
     top: 3%;
     background: #b6c8ff;
@@ -820,8 +819,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-33 {
-    width: 1.8px;
-    height: 1.8px;
+    width: 2.2px;
+    height: 2.2px;
     right: 62.4%;
     top: 20.5%;
     background: #b6c8ff;
@@ -952,8 +951,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-44 {
-    width: 1.2px;
-    height: 1.2px;
+    width: 2px;
+    height: 1.8px;
     right: 24%;
     top: 40%;
     background: #b6c8ff;
@@ -976,8 +975,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-46 {
-    width: 1.2px;
-    height: 1.2px;
+    width: 2px;
+    height: 2px;
     right: 18%;
     top: 38%;
     background: #b6c8ff;
@@ -988,8 +987,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-47 {
-    width: 1.3px;
-    height: 1.3px;
+    width: 2px;
+    height: 2px;
     right: 14%;
     top: 34%;
     background: #b6c8ff;
@@ -1096,8 +1095,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-56 {
-    width: 1px;
-    height: 1px;
+    width: 3px;
+    height: 3px;
     right: 67%;
     top: 20%;
     background: #b6c8ff;
@@ -1240,10 +1239,10 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-68 {
-    width: 1px;
-    height: 1px;
+    width: 2.2px;
+    height: 2.2px;
     right: 13%;
-    top: 16%;
+    top: 19%;
     background: #b6c8ff;
     -webkit-animation: twinkle-b 0.5s alternate infinite;
         animation: twinkle-b 0.5s alternate infinite;
@@ -1252,8 +1251,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-69 {
-    width: 1px;
-    height: 1px;
+    width: 2px;
+    height: 2px;
     right: 10.5%;
     top: 20%;
     background: #b6c8ff;
@@ -1264,8 +1263,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-70 {
-    width: 1px;
-    height: 1px;
+    width: 2.5px;
+    height: 2.5px;
     right: 8.5%;
     top: 17%;
     background: #b6c8ff;
@@ -1276,8 +1275,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-71 {
-    width: 1px;
-    height: 1px;
+    width: 2.1px;
+    height: 2.3px;
     right: 10.5%;
     top: 10%;
     background: #b6c8ff;
@@ -1288,8 +1287,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-72 {
-    width: 1px;
-    height: 1px;
+    width: 2px;
+    height: 2px;
     right: 9.3%;
     top: 7%;
     background: #b6c8ff;
@@ -1336,8 +1335,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-76 {
-    width: 1.1px;
-    height: 1.1px;
+    width: 1.9px;
+    height: 2.2px;
     right: 38%;
     top: 55%;
     background: #b6c8ff;
@@ -1360,8 +1359,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-78 {
-    width: 1.1px;
-    height: 1.1px;
+    width: 2px;
+    height: 2px;
     right: 51.5%;
     top: 40%;
     background: #b6c8ff;
@@ -1372,8 +1371,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-79 {
-    width: 1.1px;
-    height: 1.1px;
+    width: 1.8px;
+    height: 2px;
     right: 53%;
     top: 36%;
     background: #b6c8ff;
@@ -1384,10 +1383,10 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-80 {
-    width: 1px;
-    height: 1px;
-    right: 70%;
-    top: 20%;
+    width: 1.8px;
+    height: 2px;
+    right: 75%;
+    top: 22%;
     background: #b6c8ff;
     -webkit-animation: twinkle-b 0.5s alternate infinite;
         animation: twinkle-b 0.5s alternate infinite;
@@ -1468,8 +1467,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-87 {
-    width: 1px;
-    height: 1px;
+    width: 2px;
+    height: 2.4px;
     right: 92%;
     top: 57%;
     background: #b6c8ff;
@@ -1492,8 +1491,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-89 {
-    width: 1px;
-    height: 1px;
+    width: 2px;
+    height: 2px;
     right: 45%;
     top: 36%;
     background: #b6c8ff;
@@ -1504,8 +1503,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-90 {
-    width: 1px;
-    height: 1px;
+    width: 1.8px;
+    height: 2.2px;
     right: 46%;
     top: 34.5%;
     background: #b6c8ff;
@@ -1516,8 +1515,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-91 {
-    width: 1px;
-    height: 1px;
+    width: 1.8px;
+    height: 2px;
     right: 69%;
     top: 25%;
     background: #b6c8ff;
@@ -1540,8 +1539,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-93 {
-    width: 1px;
-    height: 1px;
+    width: 2px;
+    height: 2.6px;
     right: 43%;
     top: 25%;
     background: #b6c8ff;
@@ -1552,8 +1551,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-94 {
-    width: 1px;
-    height: 1px;
+    width: 2px;
+    height: 2px;
     right: 20%;
     top: 17%;
     background: #b6c8ff;
@@ -1564,8 +1563,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-95 {
-    width: 1px;
-    height: 1px;
+    width: 1.5px;
+    height: 1.1px;
     right: 16%;
     top: 21%;
     background: #b6c8ff;
@@ -1576,8 +1575,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-96 {
-    width: 1px;
-    height: 1px;
+    width: 2px;
+    height: 2px;
     right: 12%;
     top: 19.5%;
     background: #b6c8ff;
@@ -1588,8 +1587,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-97 {
-    width: 1px;
-    height: 1px;
+    width: 1.6px;
+    height: 2px;
     right: 10.5%;
     top: 17%;
     background: #b6c8ff;
@@ -1624,8 +1623,8 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
 }
 
 .twinkle-star-100 {
-    width: 1px;
-    height: 1px;
+    width: 1.8px;
+    height: 2px;
     right: 37%;
     top: 44%;
     background: #b6c8ff;

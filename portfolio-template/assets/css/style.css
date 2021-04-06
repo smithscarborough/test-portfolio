@@ -394,13 +394,13 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 1.7rem;
 }
 
-/* Burger */
+Burger */
 .burger {
   width: 28px;
   height: 32px;
   cursor: pointer;
   position: relative;
-}
+} 
 
 .burger:before, .burger span, .burger:after {
   width: 100%;
@@ -424,11 +424,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .burger span {
   top: 15px;
-}
+} 
 
-.burger:after {
+/* .burger:after {
   top: 26px;
-}
+} */
 
 /* Hover */
 .burger:hover:before {
