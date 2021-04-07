@@ -109,7 +109,7 @@ a:hover {
 .burger {
     display: none;
     cursor: pointer;
-    padding-top: 19px;
+    padding-top: 10px;
 }
 
 .burger div{
@@ -194,5 +194,8 @@ a:hover {
     .navbar-right {
         font-size: 50px;
         font-weight: bold;
+    }
+    .navbar-left {
+        padding-top: 0px;
     }
 }
