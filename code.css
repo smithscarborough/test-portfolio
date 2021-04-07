@@ -150,7 +150,9 @@ a:hover {
       transform: translateX(0%);
       transition: transform 0.2s ease-in;
       width: 65%;
-      z-index: 1;
+  }
+  nav {
+    z-index: 1;
   }
   .nav-bar-menu li {
       opacity: 0;
