@@ -119,6 +119,14 @@ a:hover {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+.project-title {
+  font-family: sans-serif !important;
+}
+
+.project-technologies {
+  font-family: sans-serif !important;
+}
+
 
 @media screen and (max-width: 1024px) {
   .main-background-image {
@@ -225,7 +233,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: sans-serif;
 }
 
 .section {
