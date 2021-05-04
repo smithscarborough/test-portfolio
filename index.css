@@ -368,6 +368,9 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100
     body {
         overflow-x: hidden;
     }
+    .nav-bar {
+        padding-top: 3%;
+    }
     .nav-bar-menu {
         position: absolute;
         left: -65%;

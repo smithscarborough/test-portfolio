@@ -158,6 +158,9 @@ a:hover {
   body {
       overflow-x: hidden;
   }
+  .nav-bar {
+    padding-top: 1.5%;
+}
   .nav-bar-menu {
       position: absolute;
       left: -65%;
