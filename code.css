@@ -216,6 +216,22 @@ a:hover {
     height: 650px;
 }
 
+.parallax-2 {
+  padding-top: 15px;
+  height: 115px;
+  font-family: sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.parallax-2 p {
+  font-size: small;
+  display: flex;
+  justify-content: end;
+  padding-top: 60px;
+}
+
 
 /* Boostrap template: */
 
@@ -725,5 +741,4 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   display: flex;
   text-align: center;
   align-items: center;
-  
 }

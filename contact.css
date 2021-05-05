@@ -372,11 +372,27 @@ a:hover {
   color: #000;
 }
 
-.copyright {
+/* .copyright {
   font: 200 14px 'Oswald', sans-serif;
   color: #555;
   letter-spacing: 1px;
   text-align: center;
+} */
+
+.copyright-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.copyright {
+  font-family: sans-serif !important;
+  font-size: small;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 hr {

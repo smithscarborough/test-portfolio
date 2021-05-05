@@ -202,3 +202,19 @@ a:hover {
         padding-top: 0px;
     }
 }
+
+.parallax-2 {
+    padding-top: 15px;
+    height: 115px;
+    font-family: sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.parallax-2 p {
+    font-size: small;
+    display: flex;
+    justify-content: end;
+    padding-top: 60px;
+}
